@@ -1,0 +1,58 @@
+/* format string for the 14 states */
+S00  = "%@";
+S01  = "da poco passate %@";
+S02  = "%@ e cinque";
+S03  = "%@ e dieci";
+S04	 = "%@ e un quarto";
+S05	 = "%@ e venti";
+S06	 = "%@ e venticinque";
+S07  = "%@ e mezzo";
+S08	 = "%@ e venticinque";
+S09	 = "%@ meno venti";
+S10	 = "%@ meno un quarto";
+S11  = "%@ meno dieci";
+S12	 = "%@ meno cinque";
+S13  = "quasi %@";
+
+/* for every state whether the current or next hour is used in the description */
+S00h = "current";
+S01h = "current";
+S02h = "current";
+S03h = "current";
+S04h = "current";
+S05h = "current";
+S06h = "current";
+S07h = "current";
+S08h = "next";
+S09h = "next";
+S10h = "next";
+S11h = "next";
+S12h = "next";
+S13h = "next";
+
+/* names of hours */
+H00 = "le dodici";
+H01 = "l'una";
+H02 = "le due";
+H03 = "le tre";
+H04 = "le quattro";
+H05 = "le cinque";
+H06 = "le sei";
+H07 = "le sette";
+H08 = "le otto";
+H09 = "le nove";
+H10 = "le dieci";
+H11 = "le undici";
+
+/* special descriptions for full hours */
+M00 = "mezzanotte";
+M12 = "mezzogiorno";
+
+/* names of days */
+D00 = "domenica";
+D01 = "lunedì";
+D02 = "martedì";
+D03 = "mercoledì";
+D04 = "giovedì";
+D05 = "venerdì";
+D06 = "sabato";
